@@ -1,7 +1,9 @@
-
+var maxHeight = 100;
 $(function(){
   $('#heightRectangle').click(function(){
-    $('.rectangle').height('+=10');
+    if ($('.rectangle').height() == maxHeight){
+      $('.rectangle').height('');
+    } else($('.rectangle').height('+=10'));
   });
   $('#rectangleGreen').click(function(){
     $('.rectangle').css('background-color', 'green');
