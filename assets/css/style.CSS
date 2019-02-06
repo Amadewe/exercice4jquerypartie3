@@ -1,6 +1,5 @@
-.rectangle {
- width:100px;
- height:10px;
- background:blue;
-
+.rectangle{
+  width: 100px;
+  height: 10px;
+  background-color: blue;
 }
